@@ -1,0 +1,13 @@
+ 
+## configure: ILI9488.h
+
+
+``` cpp
+// A0 A1 A2 A3 A4 A5 A6 A7 STM32 GPIOA
+// D0 D1 D2 D3 D4 D5 D6 D7 TFT   DATA PORT
+#define GPIO_RD GPIO_PIN_4
+#define GPIO_WR GPIO_PIN_5
+#define GPIO_RS GPIO_PIN_6
+#define GPIO_CS GPIO_PIN_7
+#define GPIO_RES GPIO_PIN_8
+```
